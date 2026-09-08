@@ -45,6 +45,6 @@ export const projects = [
     technologies: ["React", "Vite", "Tailwind CSS"],
     image: "/images/projects/portfolio.png",
     liveUrl: "",
-    githubUrl: "",
+    githubUrl: "https://github.com/priyamcodes-allday/PRIYAM-PORTFOLIO",
   },
 ];
