@@ -5,7 +5,10 @@ import useHeroPointer from "../../hooks/useHeroPointer";
 export default function Hero() {
   const { portraitRef, buttonAreaRef, buttonRef } = useHeroPointer();
   return (
-    <section aria-labelledby="hero-title" className="pb-16 pt-6 md:pt-10 lg:-mb-8 lg:pb-0">
+    <section
+      aria-labelledby="hero-title"
+      className="pb-16 pt-6 md:pt-10 lg:-mb-8 lg:pb-0"
+    >
       <Container>
         <h1
           id="hero-title"
@@ -66,7 +69,10 @@ export default function Hero() {
               Hi, I'm Priyam — a full-stack developer focused on building clean,
               scalable and useful digital products.
             </p>
-            <div ref={buttonAreaRef} className="mt-6 inline-block transition-transform duration-200 motion-reduce:transition-none">
+            <div
+              ref={buttonAreaRef}
+              className="mt-6 inline-block transition-transform duration-200 motion-reduce:transition-none"
+            >
               <a
                 ref={buttonRef}
                 href="#contact"
